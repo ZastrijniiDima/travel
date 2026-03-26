@@ -1,0 +1,21 @@
+﻿{
+  email {$EMAIL_ADMIN}
+}
+
+{$DOMAIN} {
+  encode zstd gzip
+
+  @api path /api/*
+  reverse_proxy @api backend:3000
+
+  reverse_proxy frontend:5173
+}
+
+:80 {
+  encode zstd gzip
+
+  @api path /api/*
+  reverse_proxy @api backend:3000
+
+  reverse_proxy frontend:5173
+}

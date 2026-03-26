@@ -1,0 +1,13 @@
+﻿{
+  "name": "bilete-vacanta-monorepo",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "build": "npm run build -w backend && npm run build -w frontend",
+    "lint": "npm run lint -w backend && npm run lint -w frontend",
+    "test": "npm run test -w backend && npm run test -w frontend"
+  }
+}
