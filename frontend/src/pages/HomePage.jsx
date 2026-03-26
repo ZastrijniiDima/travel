@@ -1,6 +1,8 @@
 ﻿import { Link } from 'react-router-dom';
 
 export default function HomePage() {
+  const esteAutentificat = Boolean(localStorage.getItem('token'));
+
   const sugestii = [
     {
       titlu: 'Escapada la Coasta Azurie',
@@ -42,7 +44,7 @@ export default function HomePage() {
           </p>
           <div className="hero-actions">
             <Link to="/oferte" className="btn btn-primary">Vezi ofertele</Link>
-            <Link to="/inregistrare" className="btn">Creeaza cont</Link>
+            {!esteAutentificat && <Link to="/inregistrare" className="btn">Creeaza cont</Link>}
           </div>
         </div>
         <div className="hero-note">

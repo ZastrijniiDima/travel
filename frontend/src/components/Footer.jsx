@@ -19,7 +19,7 @@ export default function Footer() {
           <h4>Contact</h4>
           <p>Email: suport@biletevacanta.ro</p>
           <p>Program: Luni - Vineri, 09:00 - 18:00</p>
-          <p>Telefon: +40 731 000 111</p>
+          <p>Telefon: +373 600 00 111</p>
         </div>
       </div>
       <div className="footer-copy">© {new Date().getFullYear()} Bilete de Vacanta. Toate drepturile rezervate.</div>
