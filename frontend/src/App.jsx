@@ -4,7 +4,7 @@ import PrivateRoute from './components/PrivateRoute';
 import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
-import DashboardPage from './pages/DashboardPage';
+import SavedPage from './pages/SavedPage';
 import OffersPage from './pages/OffersPage';
 import BookingPage from './pages/BookingPage';
 import Footer from './components/Footer';
@@ -19,10 +19,10 @@ export default function App() {
         <Route path="/inregistrare" element={<RegisterPage />} />
         <Route path="/oferte" element={<OffersPage />} />
         <Route
-          path="/dashboard"
+          path="/salvate"
           element={
             <PrivateRoute>
-              <DashboardPage />
+              <SavedPage />
             </PrivateRoute>
           }
         />

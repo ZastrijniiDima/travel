@@ -16,7 +16,7 @@ export default function Navbar() {
         <nav style={{ display: 'flex', gap: 14 }}>
           <Link to="/">Acasă</Link>
           <Link to="/oferte">Lista ofertelor</Link>
-          {token && <Link to="/dashboard">Panou de control</Link>}
+          {token && <Link to="/salvate">Salvate</Link>}
           {!token && <Link to="/autentificare">Autentificare</Link>}
           {!token && <Link to="/inregistrare">Înregistrare</Link>}
           {token && <button className="btn btn-primary" onClick={logout}>Ieșire</button>}
