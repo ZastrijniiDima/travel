@@ -197,8 +197,77 @@ input {
   font-size: 14px;
 }
 
+.offers-hero {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+
+.offers-hero h2 {
+  margin-top: 4px;
+  margin-bottom: 8px;
+  font-size: clamp(28px, 4vw, 38px);
+}
+
+.offers-hero-chip-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: flex-start;
+}
+
+.offers-chip {
+  background: #e9f5ec;
+  color: #145233;
+  border: 1px solid #d3e8d8;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.offers-info {
+  margin-bottom: 16px;
+}
+
+.favorites-panel {
+  margin-bottom: 16px;
+}
+
+.favorites-panel h3 {
+  margin-top: 0;
+}
+
+.favorites-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.favorites-list span {
+  background: #f7ebd7;
+  border: 1px solid #edd8b7;
+  color: #6b4d24;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.offer-card {
+  border-radius: 16px;
+}
+
+.offer-card-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 900px) {
-  .hero-home {
+  .hero-home,
+  .offers-hero {
     grid-template-columns: 1fr;
   }
 

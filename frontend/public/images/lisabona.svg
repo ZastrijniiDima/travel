@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="skyL" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffdca8"/>
+      <stop offset="100%" stop-color="#fff3de"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#skyL)"/>
+  <rect y="370" width="800" height="150" fill="#c48a57"/>
+  <rect x="80" y="200" width="170" height="170" fill="#efb37a"/>
+  <rect x="280" y="160" width="190" height="210" fill="#d78d56"/>
+  <rect x="510" y="220" width="210" height="150" fill="#e3a06a"/>
+  <path d="M80 200 L165 120 L250 200 Z" fill="#bf7748"/>
+  <path d="M280 160 L375 90 L470 160 Z" fill="#a9643c"/>
+  <circle cx="610" cy="170" r="42" fill="#ffe08c"/>
+  <g fill="#fff2cf">
+    <rect x="110" y="230" width="24" height="26"/>
+    <rect x="150" y="230" width="24" height="26"/>
+    <rect x="190" y="230" width="24" height="26"/>
+    <rect x="320" y="190" width="26" height="28"/>
+    <rect x="362" y="190" width="26" height="28"/>
+    <rect x="404" y="190" width="26" height="28"/>
+  </g>
+</svg>

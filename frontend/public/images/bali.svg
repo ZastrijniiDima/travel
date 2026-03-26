@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="skyB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9be0ff"/>
+      <stop offset="100%" stop-color="#e0f7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#skyB)"/>
+  <rect y="250" width="800" height="270" fill="#2db1d8"/>
+  <path d="M0 350 C160 310, 280 390, 420 340 C530 300, 680 360, 800 330 L800 520 L0 520 Z" fill="#eac992"/>
+  <path d="M530 270 L548 320" stroke="#5a3d22" stroke-width="10"/>
+  <path d="M548 240 C510 204, 540 146, 593 158 C640 168, 666 226, 624 260 C602 278, 565 272, 548 240 Z" fill="#3bbf74"/>
+  <path d="M140 268 L156 320" stroke="#5a3d22" stroke-width="9"/>
+  <path d="M156 242 C124 212, 138 166, 177 160 C214 154, 244 188, 238 226 C234 258, 188 270, 156 242 Z" fill="#37a96d"/>
+  <circle cx="662" cy="94" r="40" fill="#ffd978"/>
+</svg>

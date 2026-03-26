@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="skyV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d1d8ff"/>
+      <stop offset="100%" stop-color="#f3f5ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#skyV)"/>
+  <rect y="390" width="800" height="130" fill="#5b6d8a"/>
+  <rect x="120" y="210" width="140" height="180" fill="#f2f0eb"/>
+  <rect x="300" y="170" width="180" height="220" fill="#e6e2db"/>
+  <rect x="520" y="240" width="160" height="150" fill="#f1ede7"/>
+  <path d="M300 170 L390 105 L480 170 Z" fill="#c9c4bc"/>
+  <rect x="372" y="95" width="36" height="75" fill="#ddd8d0"/>
+  <g fill="#b9b3a9">
+    <rect x="145" y="235" width="18" height="20"/>
+    <rect x="175" y="235" width="18" height="20"/>
+    <rect x="205" y="235" width="18" height="20"/>
+    <rect x="334" y="200" width="22" height="24"/>
+    <rect x="372" y="200" width="22" height="24"/>
+    <rect x="410" y="200" width="22" height="24"/>
+  </g>
+  <circle cx="680" cy="98" r="36" fill="#ffe6a4"/>
+</svg>
