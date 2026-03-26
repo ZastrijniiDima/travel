@@ -13,7 +13,7 @@ export default function BookingPage() {
     try {
       await api.post('/rezervari', { vacationPackageId: Number(id), numarPersoane: Number(numarPersoane) });
       setMesaj('Rezervarea a fost realizată cu succes.');
-      setTimeout(() => navigate('/dashboard'), 800);
+      setTimeout(() => navigate('/'), 800);
     } catch (err) {
       setMesaj(err?.response?.data?.message || 'Rezervarea a eșuat.');
     }

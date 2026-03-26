@@ -140,15 +140,6 @@ export default function OffersPage() {
         </div>
       </section>
 
-      {oferte.length === 0 && (
-        <div className="card offers-info">
-          <strong>Momentan afisam oferte demonstrative.</strong>
-          <p>
-            Dupa ce adaugi oferte reale in backend, aceasta pagina va prelua automat continutul din baza de date.
-          </p>
-        </div>
-      )}
-
       {esteAutentificat && (
         <section className="card favorites-panel">
           <h3>Oferte salvate de tine</h3>

@@ -1,4 +1,4 @@
-﻿import { Routes, Route } from 'react-router-dom';
+﻿import { Navigate, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import PrivateRoute from './components/PrivateRoute';
 import HomePage from './pages/HomePage';
@@ -18,6 +18,7 @@ export default function App() {
         <Route path="/autentificare" element={<LoginPage />} />
         <Route path="/inregistrare" element={<RegisterPage />} />
         <Route path="/oferte" element={<OffersPage />} />
+        <Route path="/dashboard" element={<Navigate to="/" replace />} />
         <Route
           path="/salvate"
           element={

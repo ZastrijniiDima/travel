@@ -44,7 +44,7 @@ export default function SavedPage() {
   // Fetch offers from API, fallback to demo
   useEffect(() => {
     api
-      .get('/vacation-packages')
+      .get('/oferte')
       .then((res) => {
         setOferte(res.data && res.data.length > 0 ? res.data : oferteDemo);
       })
