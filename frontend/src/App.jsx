@@ -7,6 +7,7 @@ import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
 import OffersPage from './pages/OffersPage';
 import BookingPage from './pages/BookingPage';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
           }
         />
       </Routes>
+      <Footer />
     </>
   );
 }
