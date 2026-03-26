@@ -2,11 +2,11 @@
 
 export class RegisterDto {
   @IsNotEmpty()
-  nume: string;
+  nume!: string;
 
   @IsEmail()
-  email: string;
+  email!: string;
 
   @MinLength(6)
-  parola: string;
+  parola!: string;
 }

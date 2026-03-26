@@ -2,8 +2,8 @@
 
 export class LoginDto {
   @IsEmail()
-  email: string;
+  email!: string;
 
   @MinLength(6)
-  parola: string;
+  parola!: string;
 }

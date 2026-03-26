@@ -2,13 +2,13 @@
 
 export class CreateUserDto {
   @IsNotEmpty()
-  nume: string;
+  nume!: string;
 
   @IsEmail()
-  email: string;
+  email!: string;
 
   @MinLength(6)
-  parola: string;
+  parola!: string;
 }
 
 export class UpdateUserDto {

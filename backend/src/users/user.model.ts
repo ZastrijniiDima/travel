@@ -4,14 +4,14 @@ import { Booking } from '../bookings/booking.model';
 @Table({ tableName: 'users' })
 export class User extends Model {
   @Column({ type: DataType.STRING, allowNull: false })
-  nume: string;
+  nume!: string;
 
   @Column({ type: DataType.STRING, unique: true, allowNull: false })
-  email: string;
+  email!: string;
 
   @Column({ type: DataType.STRING, allowNull: false })
-  parola: string;
+  parola!: string;
 
   @HasMany(() => Booking)
-  rezervari: Booking[];
+  rezervari!: Booking[];
 }

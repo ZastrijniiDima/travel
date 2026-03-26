@@ -6,23 +6,23 @@ import { Booking } from '../bookings/booking.model';
 @Table({ tableName: 'vacation_packages' })
 export class VacationPackage extends Model {
   @Column({ type: DataType.STRING, allowNull: false })
-  titlu: string;
+  titlu!: string;
 
   @Column({ type: DataType.TEXT, allowNull: false })
-  descriere: string;
+  descriere!: string;
 
   @Column({ type: DataType.STRING, allowNull: false })
-  destinatie: string;
+  destinatie!: string;
 
   @Column({ type: DataType.DECIMAL(10, 2), allowNull: false })
-  pret: number;
+  pret!: number;
 
   @Column({ type: DataType.INTEGER, allowNull: false })
-  locuriDisponibile: number;
+  locuriDisponibile!: number;
 
   @Column({ type: DataType.DATEONLY, allowNull: false })
-  dataPlecare: string;
+  dataPlecare!: string;
 
   @HasMany(() => Booking)
-  rezervari: Booking[];
+  rezervari!: Booking[];
 }

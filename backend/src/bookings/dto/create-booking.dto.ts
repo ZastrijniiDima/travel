@@ -2,9 +2,9 @@
 
 export class CreateBookingDto {
   @IsInt()
-  vacationPackageId: number;
+  vacationPackageId!: number;
 
   @IsInt()
   @Min(1)
-  numarPersoane: number;
+  numarPersoane!: number;
 }

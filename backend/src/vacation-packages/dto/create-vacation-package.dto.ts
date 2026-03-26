@@ -2,22 +2,22 @@
 
 export class CreateVacationPackageDto {
   @IsNotEmpty()
-  titlu: string;
+  titlu!: string;
 
   @IsNotEmpty()
-  descriere: string;
+  descriere!: string;
 
   @IsNotEmpty()
-  destinatie: string;
+  destinatie!: string;
 
   @IsNumber()
   @Min(0)
-  pret: number;
+  pret!: number;
 
   @IsInt()
   @Min(1)
-  locuriDisponibile: number;
+  locuriDisponibile!: number;
 
   @IsDateString()
-  dataPlecare: string;
+  dataPlecare!: string;
 }

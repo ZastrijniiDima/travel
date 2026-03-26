@@ -8,21 +8,21 @@ import { VacationPackage } from '../vacation-packages/vacation-package.model';
 export class Booking extends Model {
   @ForeignKey(() => User)
   @Column({ type: DataType.INTEGER, allowNull: false })
-  userId: number;
+  userId!: number;
 
   @ForeignKey(() => VacationPackage)
   @Column({ type: DataType.INTEGER, allowNull: false })
-  vacationPackageId: number;
+  vacationPackageId!: number;
 
   @Column({ type: DataType.INTEGER, allowNull: false, defaultValue: 1 })
-  numarPersoane: number;
+  numarPersoane!: number;
 
   @Column({ type: DataType.STRING, allowNull: false, defaultValue: 'confirmata' })
-  status: string;
+  status!: string;
 
   @BelongsTo(() => User)
-  user: User;
+  user!: User;
 
   @BelongsTo(() => VacationPackage)
-  oferta: VacationPackage;
+  oferta!: VacationPackage;
 }
